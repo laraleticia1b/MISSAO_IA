@@ -1,0 +1,197 @@
+/* ===== CONFIGURAÇÕES GERAIS ===== */
+
+*{
+    margin:0;
+        padding:0;
+            box-sizing:border-box;
+            }
+
+            body{
+
+                font-family:"Times New Roman", serif;
+
+                    background:linear-gradient(135deg,#020817,#001d3d,#003b2f);
+
+                        color:white;
+
+                            min-height:100vh;
+
+                                display:flex;
+
+                                    justify-content:center;
+
+                                        align-items:center;
+
+                                            padding:20px;
+
+                                            }
+
+                                            /* ===== CAIXA PRINCIPAL ===== */
+
+                                            .container{
+
+                                                width:100%;
+
+                                                    max-width:800px;
+
+                                                        background:rgba(0,0,0,.75);
+
+                                                            border:3px solid #00c853;
+
+                                                                border-radius:15px;
+
+                                                                    padding:35px;
+
+                                                                        text-align:center;
+
+                                                                            box-shadow:0 0 25px rgba(0,255,120,.5);
+
+                                                                            }
+
+                                                                            /* ===== TÍTULOS ===== */
+
+                                                                            h1{
+
+                                                                                color:#00ff99;
+
+                                                                                    margin-bottom:20px;
+
+                                                                                        text-shadow:0 0 10px #00ff99;
+
+                                                                                        }
+
+                                                                                        h2{
+
+                                                                                            color:#66ccff;
+
+                                                                                                margin-bottom:15px;
+
+                                                                                                }
+
+                                                                                                /* ===== TEXTO ===== */
+
+                                                                                                p{
+
+                                                                                                    font-size:20px;
+
+                                                                                                        line-height:1.8;
+
+                                                                                                            margin-bottom:25px;
+
+                                                                                                                text-align:justify;
+
+                                                                                                                }
+
+                                                                                                                /* ===== CAMPO DE NOME ===== */
+
+                                                                                                                input{
+
+                                                                                                                    width:80%;
+
+                                                                                                                        max-width:350px;
+
+                                                                                                                            padding:12px;
+
+                                                                                                                                margin-bottom:20px;
+
+                                                                                                                                    border:none;
+
+                                                                                                                                        border-radius:8px;
+
+                                                                                                                                            outline:none;
+
+                                                                                                                                                font-size:18px;
+
+                                                                                                                                                    font-family:"Times New Roman", serif;
+
+                                                                                                                                                    }
+
+                                                                                                                                                    /* ===== BOTÕES ===== */
+
+                                                                                                                                                    button{
+
+                                                                                                                                                        background:#00695c;
+
+                                                                                                                                                            color:white;
+
+                                                                                                                                                                border:2px solid #00ff99;
+
+                                                                                                                                                                    padding:12px 24px;
+
+                                                                                                                                                                        margin:10px;
+
+                                                                                                                                                                            border-radius:8px;
+
+                                                                                                                                                                                cursor:pointer;
+
+                                                                                                                                                                                    font-size:18px;
+
+                                                                                                                                                                                        font-family:"Times New Roman", serif;
+
+                                                                                                                                                                                            transition:.3s;
+
+                                                                                                                                                                                            }
+
+                                                                                                                                                                                            button:hover{
+
+                                                                                                                                                                                                background:#00ff99;
+
+                                                                                                                                                                                                    color:black;
+
+                                                                                                                                                                                                        transform:scale(1.05);
+
+                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                        /* ===== BOTÕES LADO A LADO ===== */
+
+                                                                                                                                                                                                        .botoes{
+
+                                                                                                                                                                                                            display:flex;
+
+                                                                                                                                                                                                                justify-content:center;
+
+                                                                                                                                                                                                                    gap:15px;
+
+                                                                                                                                                                                                                        flex-wrap:wrap;
+
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        /* ===== RESPONSIVIDADE ===== */
+
+                                                                                                                                                                                                                        @media(max-width:700px){
+
+                                                                                                                                                                                                                        .container{
+
+                                                                                                                                                                                                                        padding:20px;
+
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        p{
+
+                                                                                                                                                                                                                        font-size:18px;
+
+                                                                                                                                                                                                                        text-align:left;
+
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        input{
+
+                                                                                                                                                                                                                        width:100%;
+
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        button{
+
+                                                                                                                                                                                                                        width:100%;
+
+                                                                                                                                                                                                                        margin:8px 0;
+
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        .botoes{
+
+                                                                                                                                                                                                                        flex-direction:column;
+
+                                                                                                                                                                                                                        }
+
+                                                                                                                                                                                                                        }
